@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:title="Sort"
+        app:showAsAction="collapseActionView|always">
+
+        <menu>
+
+            <item
+                android:id="@+id/sort_by_name_ascending"
+                android:title="Sort By Name (Ascending)">
+            </item>
+
+            <item
+                android:id="@+id/sort_by_name_descending"
+                android:title="Sort By Name (Descending)">
+            </item>
+
+            <item
+                android:id="@+id/sort_by_size_ascending"
+                android:title="Sort By Size (Ascending)">
+            </item>
+
+            <item
+                android:id="@+id/sort_by_size_descending"
+                android:title="Sort By Size (Descending)">
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>
